@@ -1,0 +1,14 @@
+{
+  "js2svg": {
+    "indent": 2,
+    "pretty": true
+  },
+  "plugins": [
+    {
+      "removeDimensions": true
+    },
+    {
+      "removeOffCanvasPaths": true
+    }
+  ]
+}

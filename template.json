@@ -1,0 +1,135 @@
+{
+  "global": {
+    "appName": "Parking Windsor",
+    "description": "Parking Windsor, tu parking en Barce..",
+    "map": {
+      "markers": [{
+        "id": "1",
+        "name": "Parking Windsor",
+        "position": {
+          "lat": "41.39611476004955",
+          "lng": "2.155695803486456"
+        }
+      }]
+    }
+  },
+  "layout": {
+    "header": {
+      "desktop": {
+
+      },
+      "mobile": {
+
+      }
+    },
+    "footer": {
+      "desktop": {
+
+      },
+      "mobile": {
+
+      }
+    }
+  },
+  "pages": {
+    "frequent-question": {
+
+    },
+    "contact-policy": {
+
+    },
+    "service": {
+
+    },
+    "home": {
+      "banner": {
+        "title": "test",
+        "subtitle": "sd",
+        "check": [
+          {
+            "text": "dsf"
+          }
+        ]
+      },
+      "sections": [{
+        "verticalCard": [{
+          "titles": {
+            "title": "",
+            "subtitle": ""
+          },
+          "cards": [{
+            "alt": "",
+            "image": "",
+            "title": "",
+            "description": ""
+        }]}],
+        "horizontalCard": [{
+          "titles": {
+            "title": "",
+            "subtitle": ""
+          },
+          "cards": [{
+            "alt": "",
+            "image": "",
+            "title": "",
+            "subTitle": "",
+            "description": ""
+          }]}],
+        "map": [{
+          "titles": {
+            "title": "",
+            "subtitle": ""
+          }}]
+      }]
+    },
+    "enterprise": {
+
+    },
+    "contact": {
+      "pageTitles": {
+        "title": "",
+        "subTitle": ""
+      },
+      "sections": [{
+        "map": [{
+          "titles": {
+            "title": "",
+            "subtitle": ""
+          }}]
+      }]
+    },
+    "booking": {
+      "pageTitles": {
+        "title": "",
+        "subTitle": ""
+      },
+      "sections": {
+        "bookingContent": [{
+          "card": [{
+            "title": "",
+            "subtitle": "",
+            "description": ""
+          }, {
+            "title": "",
+            "subtitle": "",
+            "description": ""
+          }, {
+            "title": "",
+            "subtitle": "",
+            "description": ""
+          }]
+        }],
+        "steps": {
+
+        }
+        }
+      }
+    },
+    "404": {
+      "text": ""
+    },
+    "success": {
+       "congrats": "Gracios por usar Parking Windsor!"
+    }
+  }
+}
