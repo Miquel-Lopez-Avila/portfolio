@@ -1,15 +1,18 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { wait } from '../../../common/utils/mock';
+import InitialLoader from 'common/components/initial-loader/InitialLoader';
+import { RelativeContainer } from './Initializer.styled';
 
 function Initializer({ children }) {
-  const [isReady, setIsReady] = useState(false);
-
   useEffect(() => {
-    wait(() => setIsReady(true));
+    document.body.style.margin = '0px';
   }, []);
 
-  return isReady ? children : <p>Loading...</p>;
+  return (
+    <RelativeContainer>
+      {children}
+    </RelativeContainer>
+  );
 }
 
 Initializer.propTypes = {

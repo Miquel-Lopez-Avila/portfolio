@@ -1,5 +1,5 @@
 import { css } from 'styled-components';
-import BackgroundPage from '../../assets/images/trianglify-lowres.png';
+import { device } from '../breakpoint';
 
 export const appGlobals = css`
   * {
@@ -12,14 +12,22 @@ export const appGlobals = css`
   body {
     margin: 0 !important;
     padding: 0 !important;
-    font-family: Inter, sans-serif;
-    // background-image: url(${BackgroundPage});
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: rgb(236, 240, 245);
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Ubuntu', sans-serif;
+    background-color: ${({ theme }) => theme.sideBarColor};
+    position: relative;
+    color: ${({ theme }) => theme.letteringColor};
+    overflow-x: hidden;
+
+    @media ${device.tablet} {
+      overflow: hidden;
+    }
   }
 
-  h1 {
-    font-family: Red Hat Display, sans-serif;
+  .title {
+    font-family: "Red Hat Display", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Ubuntu', sans-serif;
+  }
+
+  .a_star{
+    transition-duration: 1s;
   }
 `;

@@ -1,27 +1,21 @@
 import styled from 'styled-components';
+import { device } from 'application/style/breakpoint';
 
 export const SideBar = styled.aside`
-  width: 500px;
-  height: 100vh;
-  background-color: #ff0000;
-`;
-
-export const ProfileContainer = styled.div`
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
-`;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  z-index: 100;
+  padding: 20px 20px 20px 20px;
+  box-sizing: border-box;
 
-export const Avatar = styled.img`
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-`;
-
-export const Name = styled.h1`
-`;
-
-export const Text = styled.p`
+  @media ${device.tablet} {
+    width: 275px;
+    height: 100vh;
+    border-radius: 0 30px 30px 0;
+    padding: 20px 0 20px 20px;
+  }
 `;
