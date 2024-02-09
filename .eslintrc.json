@@ -33,6 +33,7 @@
     "no-param-reassign": "off",
     "camelcase": "off",
     "arrow-parens": "off",
-    "no-undef": "off"
+    "no-undef": "off",
+    "linebreak-style": "off"
   }
 }
