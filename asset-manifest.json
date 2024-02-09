@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "./src/static/js/main.2d61bc96.js",
+    "main.js": "./src/static/js/main.e4673b2d.js",
     "static/media/189481193-62e21400-840a-4fd4-b0fe-314ae153ffe7.gif": "./src/static/media/189481193-62e21400-840a-4fd4-b0fe-314ae153ffe7.8ba48904df9130b7d272.gif",
     "static/media/caricature_dark.png": "./src/static/media/caricature_dark.3215818d1d72361b5e30.png",
     "static/media/avion2.gif": "./src/static/media/avion2.c6dbe49887cc012c86ca.gif",
@@ -12,15 +12,15 @@
     "static/media/knowmadmood.png": "./src/static/media/knowmadmood.0e0a6c90e3c5f31f3ab2.png",
     "static/media/fog.svg": "./src/static/media/fog.fd99d0a695b19f7040a0ae554a046c71.svg",
     "static/media/fog2.svg": "./src/static/media/fog2.9fa01b4927df63c84278008469f5a050.svg",
-    "static/media/dention.svg": "./src/static/media/dention.a2bde7dab98c86f2ac652d741005f075.svg",
-    "static/media/molino-de-viento.svg": "./src/static/media/molino-de-viento.70df8386c6bbe41a426990812dd06f9f.svg",
-    "static/media/flock-of-birds.svg": "./src/static/media/flock-of-birds.8fd1ac2c90de382fca07a0c3cefe1af6.svg",
-    "static/media/satelite.svg": "./src/static/media/satelite.6c71df289f6f916c37a655b29689a021.svg",
+    "static/media/dention.svg": "./src/static/media/dention.6d71174274b56ef123f2ee491831e4f2.svg",
+    "static/media/molino-de-viento.svg": "./src/static/media/molino-de-viento.5e375e0333144cc33e2916fcd50e5c4b.svg",
+    "static/media/flock-of-birds.svg": "./src/static/media/flock-of-birds.275ac29e9a4438e6320a38ed9ed9c670.svg",
+    "static/media/satelite.svg": "./src/static/media/satelite.83071da55bb579380b1f0213ba6c117c.svg",
     "static/media/logo-codepen.svg": "./src/static/media/logo-codepen.4b38575eba3dd92d85af26da49520257.svg",
     "index.html": "./src/index.html",
     "static/media/logo-discord.svg": "./src/static/media/logo-discord.0387c4106b7c720c5e6f2f91bd327276.svg",
-    "static/media/telescope.svg": "./src/static/media/telescope.d4739d7ffa7d4f2fdbfb42f1ae6d0d28.svg",
-    "static/media/infinito.svg": "./src/static/media/infinito.4a03ec6a3393ebfe8cc7711d32f6c15f.svg",
+    "static/media/telescope.svg": "./src/static/media/telescope.516e325dc23cf37868290b53d930d38c.svg",
+    "static/media/infinito.svg": "./src/static/media/infinito.64549266f4bf62c2b84eefa590e60822.svg",
     "static/media/logo-github.svg": "./src/static/media/logo-github.080591513b1a3eb8fdfe0257830eaff1.svg",
     "static/media/logo-linkedin.svg": "./src/static/media/logo-linkedin.9ab1461c9a828786baf729f786e1c2f3.svg",
     "static/media/cellular-outline.svg": "./src/static/media/cellular-outline.6fae549f5325c2943744b887da8c216f.svg",
@@ -31,9 +31,9 @@
     "static/media/cloud.svg": "./src/static/media/cloud.d15ea745a1c2c282f501e16352da9a11.svg",
     "static/media/code-slash-outline.svg": "./src/static/media/code-slash-outline.6cfd4ffe737d4a89a03dff74f392611b.svg",
     "static/media/location-sharp.svg": "./src/static/media/location-sharp.d44f8c759b054f486bd2c5a48282d2c3.svg",
-    "main.2d61bc96.js.map": "./src/static/js/main.2d61bc96.js.map"
+    "main.e4673b2d.js.map": "./src/static/js/main.e4673b2d.js.map"
   },
   "entrypoints": [
-    "static/js/main.2d61bc96.js"
+    "static/js/main.e4673b2d.js"
   ]
 }
